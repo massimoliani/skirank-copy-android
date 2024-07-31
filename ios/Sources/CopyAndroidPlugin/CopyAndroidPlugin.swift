@@ -20,4 +20,8 @@ public class CopyAndroidPlugin: CAPPlugin, CAPBridgedPlugin {
             "value": implementation.echo(value)
         ])
     }
+
+    @objc func copy(_ call: CAPPluginCall) {
+        call.unimplemented("Not implemented on iOS.");
+    }
 }
