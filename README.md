@@ -88,6 +88,6 @@ copy(options: CopyOptions) => Promise<CopyResults>
 
 #### CopyOptions
 
-<code>{ path: string, }</code>
+<code>{ path: string, filename: string, directory: string, }</code>
 
 </docgen-api>

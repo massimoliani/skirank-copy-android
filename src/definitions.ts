@@ -5,6 +5,8 @@ export interface CopyAndroidPlugin {
 
 export type CopyOptions = {
   path: string,
+  filename: string,
+  directory: string,
 };
 
 export type CopyResults = {
